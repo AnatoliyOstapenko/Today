@@ -14,6 +14,7 @@ class ReminderListCell: UITableViewCell {
   
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var doneButton: UIButton!
     
     
     var doneButtonAction: DoneButtonAction?
