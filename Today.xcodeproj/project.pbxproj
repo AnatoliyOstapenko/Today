@@ -15,6 +15,7 @@
 		FA5608B1273B149A008B2A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5608AF273B149A008B2A11 /* LaunchScreen.storyboard */; };
 		FA5608BA273B1797008B2A11 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5608B9273B1797008B2A11 /* Reminder.swift */; };
 		FA5608BD273B21DB008B2A11 /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5608BC273B21DB008B2A11 /* ReminderListCell.swift */; };
+		FA5608C2273C631C008B2A11 /* ReminderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5608C1273C631C008B2A11 /* ReminderDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FA5608B2273B149A008B2A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5608B9273B1797008B2A11 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		FA5608BC273B21DB008B2A11 /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
+		FA5608C1273C631C008B2A11 /* ReminderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				FA5608B9273B1797008B2A11 /* Reminder.swift */,
 				FA5608BC273B21DB008B2A11 /* ReminderListCell.swift */,
 				FA5608A8273B1495008B2A11 /* ReminderListViewController.swift */,
+				FA5608C1273C631C008B2A11 /* ReminderDetailViewController.swift */,
 				FA5608AA273B1495008B2A11 /* Main.storyboard */,
 				FA5608AD273B149A008B2A11 /* Assets.xcassets */,
 				FA5608AF273B149A008B2A11 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				FA5608A9273B1495008B2A11 /* ReminderListViewController.swift in Sources */,
 				FA5608BD273B21DB008B2A11 /* ReminderListCell.swift in Sources */,
 				FA5608A5273B1495008B2A11 /* AppDelegate.swift in Sources */,
+				FA5608C2273C631C008B2A11 /* ReminderDetailViewController.swift in Sources */,
 				FA5608A7273B1495008B2A11 /* SceneDelegate.swift in Sources */,
 				FA5608BA273B1797008B2A11 /* Reminder.swift in Sources */,
 			);
@@ -224,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
